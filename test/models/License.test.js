@@ -1,5 +1,5 @@
-const License = require("../../src/models/License");
-const categories = require("../../commons/categories");
+import License from '../../src/models/License'
+import categories from '../../commons/categories'
 
 describe("License", () => {
   let license;
